@@ -6,7 +6,7 @@
  * However, if a user changes the location of uv.bundle.js/uv.config.js or sw.js is not relative to them, they will need to modify this script locally.
  */
 importScripts('uv.bundle.js');
-importScripts('uv.config.js');
+importScripts('https://raw.githack.com/hankypoo7/ccuonefile/main/uv.config.js');
 importScripts('https://raw.githack.com/hankypoo7/ccuonefile/main/uv.sw.js');
 
 const sw = new UVServiceWorker();
