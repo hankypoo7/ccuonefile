@@ -7,7 +7,7 @@
  */
 importScripts('uv.bundle.js');
 importScripts('uv.config.js');
-importScripts(__uv$config.sw || 'uv.sw.js');
+importScripts('https://raw.githack.com/hankypoo7/ccuonefile/main/uv.sw.js');
 
 const sw = new UVServiceWorker();
 
