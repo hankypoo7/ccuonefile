@@ -1,5 +1,5 @@
 
-const stockSW = "/uv/sw.js";
+const stockSW = "https://raw.githack.com/hankypoo7/ccuonefile/main/sw.js";
 const swAllowedHostnames = ["localhost", "127.0.0.1"];
 addEventListener("DOMContentLoaded", async (event) => {
     registerSW()
