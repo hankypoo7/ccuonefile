@@ -7,9 +7,9 @@ self.__uv$config = {
     
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/uv/uv.handler.js',
-    client: '/uv/uv.client.js',
-    bundle: '/uv/uv.bundle.js',
-    config: '/uv/uv.config.js',
-    sw: '/uv/uv.sw.js',
+    handler: 'https://raw.githack.com/hankypoo7/ccuonefile/main/uv.handler.js',
+    client: 'https://raw.githack.com/hankypoo7/ccuonefile/main/uv.client.js',
+    bundle: 'https://raw.githack.com/hankypoo7/ccuonefile/main/uv-bundle.js',
+    config: 'https://raw.githack.com/hankypoo7/ccuonefile/main/uv.config.js',
+    sw: 'https://raw.githack.com/hankypoo7/ccuonefile/main/uv.sw.js',
 };
